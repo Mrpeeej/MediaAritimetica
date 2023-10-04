@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Avalia Média</title>
+</head>
+
+<body> 
+    <div id="fundo">
+
+    <h1>Avaliação Media</h1>
+
+    <hr>
+    <br><br>
+
+    <form action="">
+        
+            <label for=""><h4>Nome</h4></label>
+            <input type="text" class="caixa" id="nome" placeholder="Escreva seu Nome" autocomplete="off" autofocus>
+
+            <br><br>
+
+            <label for=""><h4>Primeira Nota</h4></label>
+            <input type="text" class="caixa" id="nota1" autocomplete="off" placeholder="Insira sua 1º nota">
+
+            <br><br>
+
+            <label for=""><h4>Segunda Nota</h4></label>
+            <input type="text" class="caixa" id="nota2" autocomplete="off" placeholder="Insira sua 2º nota" onblur="fazM()">
+
+            <br><br>
+
+            <label for=""><h4>Média</h4></label>
+            <div class="caixa" id="media"></div>
+
+            <br>
+
+            <label for=""><h4>Resultado</h4></label>
+            <div class="caixa" id="resultado"></div>
+        
+    </form>
+    </div>
+
+
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>
